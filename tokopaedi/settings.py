@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STRIPE_SECRET_KEY = ''
 
 # Application definition
 
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     
     # Local apps
     'product',
+    'order',
 ]
 
 CORS_ALLOWED_ORIGINS = [
